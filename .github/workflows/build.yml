@@ -1,7 +1,16 @@
 name: HelloWorld
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - "src/**"
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "src/**"
 
 jobs:
   build:
