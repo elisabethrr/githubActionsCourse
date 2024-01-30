@@ -10,6 +10,8 @@ public class GithubActionsCourseApplication {
 		SpringApplication.run(GithubActionsCourseApplication.class, args);
 		String text = "HÆLLÆ WORLD";
 		System.out.println(text);
+		System.out.println(text);
+
 	}
 
 }
