@@ -1,4 +1,4 @@
-name: Ignite
+name: HelloWorld
 
 on:
   workflow_dispatch:
